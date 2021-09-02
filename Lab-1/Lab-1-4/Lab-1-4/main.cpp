@@ -96,7 +96,7 @@ void display_struct(struct element arr[],int counter)
 {
     // Display the struct info
     for (int i=0; i<counter; i++)
-        cout<<arr[i].number<<" = "<<arr[i].count<<endl;
+        cout<<arr[i].number<<" is present "<<arr[i].count<<" times"<<endl;
 }
 
 void struct_sort(struct element arr[], int counter)
@@ -153,3 +153,4 @@ int main(int argc, const char * argv[])
     
     return 0;
 }
+

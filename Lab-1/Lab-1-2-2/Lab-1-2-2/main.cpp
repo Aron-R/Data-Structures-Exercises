@@ -34,6 +34,7 @@ int main(int argc, const char * argv[])
     swap(a, b);
     
     // display values in a and b
+    cout<<"\nAfter swapping...\n";
     cout<<"a: "<<a<<endl<<"b: "<<b<<endl;
     return 0;
 }

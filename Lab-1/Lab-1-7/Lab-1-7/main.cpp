@@ -3,7 +3,7 @@
 //  Lab-1-7
 //
 //  Created by Aaron R on 11/08/21.
-//
+//  Find the maximum and minimum element in an array
 
 #include <iostream>
 using namespace std;

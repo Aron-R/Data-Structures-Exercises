@@ -64,6 +64,7 @@ int main(int argc, const char * argv[])
             copyB(i, temp[i]);
     }
     
+    cout<<"\nAfter swapping..\n";
     // displaying a and b
     cout<<"a: "<<a<<endl;
     cout<<"b: "<<b<<endl;

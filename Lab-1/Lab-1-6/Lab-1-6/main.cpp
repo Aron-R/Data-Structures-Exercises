@@ -3,7 +3,9 @@
 //  Lab-1-6
 //
 //  Created by Aaron R on 11/08/21.
-//  Take a string as an argument and modifies the string so as to remove all consecutive duplicate characters, e.g. mississippi -> misisipi..
+//  Take a string as an argument and modifies the string so
+//  as to remove all consecutive duplicate characters,
+//  e.g. mississippi -> misisipi..
 
 #include <iostream>
 using namespace std;
