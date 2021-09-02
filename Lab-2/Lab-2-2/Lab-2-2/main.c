@@ -125,7 +125,7 @@ void delete_head(struct node **head, int * count)
     // The address of the head is updated to the next node
     *head = (*head)->link;
     
-    // free the memory of the previous tail
+    // free the memory of the previous head
     free(temp);
     *count-=1;
 }
