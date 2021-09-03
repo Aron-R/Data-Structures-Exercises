@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B13C014226E1785400992A6A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B13C014126E1785400992A6A /* main.c */; };
+		B126BCF626E1D2EF002F7AF3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B126BCF526E1D2EF002F7AF3 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B13C013C26E1785400992A6A /* CopyFiles */ = {
+		B126BCF026E1D2EF002F7AF3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B13C013E26E1785400992A6A /* Lab-4-1 (infix to postfix) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab-4-1 (infix to postfix)"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B13C014126E1785400992A6A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B126BCF226E1D2EF002F7AF3 /* linked-list-reverse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "linked-list-reverse"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B126BCF526E1D2EF002F7AF3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B13C013B26E1785400992A6A /* Frameworks */ = {
+		B126BCEF26E1D2EF002F7AF3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,64 +38,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B13C013526E1785400992A6A = {
+		B126BCE926E1D2EF002F7AF3 = {
 			isa = PBXGroup;
 			children = (
-				B13C014026E1785400992A6A /* Lab-4-1 (infix to postfix) */,
-				B13C013F26E1785400992A6A /* Products */,
+				B126BCF426E1D2EF002F7AF3 /* linked-list-reverse */,
+				B126BCF326E1D2EF002F7AF3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B13C013F26E1785400992A6A /* Products */ = {
+		B126BCF326E1D2EF002F7AF3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B13C013E26E1785400992A6A /* Lab-4-1 (infix to postfix) */,
+				B126BCF226E1D2EF002F7AF3 /* linked-list-reverse */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B13C014026E1785400992A6A /* Lab-4-1 (infix to postfix) */ = {
+		B126BCF426E1D2EF002F7AF3 /* linked-list-reverse */ = {
 			isa = PBXGroup;
 			children = (
-				B13C014126E1785400992A6A /* main.c */,
+				B126BCF526E1D2EF002F7AF3 /* main.c */,
 			);
-			path = "Lab-4-1 (infix to postfix)";
+			path = "linked-list-reverse";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B13C013D26E1785400992A6A /* Lab-4-1 (infix to postfix) */ = {
+		B126BCF126E1D2EF002F7AF3 /* linked-list-reverse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B13C014526E1785400992A6A /* Build configuration list for PBXNativeTarget "Lab-4-1 (infix to postfix)" */;
+			buildConfigurationList = B126BCF926E1D2EF002F7AF3 /* Build configuration list for PBXNativeTarget "linked-list-reverse" */;
 			buildPhases = (
-				B13C013A26E1785400992A6A /* Sources */,
-				B13C013B26E1785400992A6A /* Frameworks */,
-				B13C013C26E1785400992A6A /* CopyFiles */,
+				B126BCEE26E1D2EF002F7AF3 /* Sources */,
+				B126BCEF26E1D2EF002F7AF3 /* Frameworks */,
+				B126BCF026E1D2EF002F7AF3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Lab-4-1 (infix to postfix)";
-			productName = "Lab-4-1 (infix to postfix)";
-			productReference = B13C013E26E1785400992A6A /* Lab-4-1 (infix to postfix) */;
+			name = "linked-list-reverse";
+			productName = "linked-list-reverse";
+			productReference = B126BCF226E1D2EF002F7AF3 /* linked-list-reverse */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B13C013626E1785400992A6A /* Project object */ = {
+		B126BCEA26E1D2EF002F7AF3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					B13C013D26E1785400992A6A = {
+					B126BCF126E1D2EF002F7AF3 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = B13C013926E1785400992A6A /* Build configuration list for PBXProject "Lab-4-1 (infix to postfix)" */;
+			buildConfigurationList = B126BCED26E1D2EF002F7AF3 /* Build configuration list for PBXProject "linked-list-reverse" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -103,29 +103,29 @@
 				en,
 				Base,
 			);
-			mainGroup = B13C013526E1785400992A6A;
-			productRefGroup = B13C013F26E1785400992A6A /* Products */;
+			mainGroup = B126BCE926E1D2EF002F7AF3;
+			productRefGroup = B126BCF326E1D2EF002F7AF3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B13C013D26E1785400992A6A /* Lab-4-1 (infix to postfix) */,
+				B126BCF126E1D2EF002F7AF3 /* linked-list-reverse */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B13C013A26E1785400992A6A /* Sources */ = {
+		B126BCEE26E1D2EF002F7AF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B13C014226E1785400992A6A /* main.c in Sources */,
+				B126BCF626E1D2EF002F7AF3 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B13C014326E1785400992A6A /* Debug */ = {
+		B126BCF726E1D2EF002F7AF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		B13C014426E1785400992A6A /* Release */ = {
+		B126BCF826E1D2EF002F7AF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +236,7 @@
 			};
 			name = Release;
 		};
-		B13C014626E1785400992A6A /* Debug */ = {
+		B126BCFA26E1D2EF002F7AF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -244,7 +244,7 @@
 			};
 			name = Debug;
 		};
-		B13C014726E1785400992A6A /* Release */ = {
+		B126BCFB26E1D2EF002F7AF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -255,25 +255,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B13C013926E1785400992A6A /* Build configuration list for PBXProject "Lab-4-1 (infix to postfix)" */ = {
+		B126BCED26E1D2EF002F7AF3 /* Build configuration list for PBXProject "linked-list-reverse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B13C014326E1785400992A6A /* Debug */,
-				B13C014426E1785400992A6A /* Release */,
+				B126BCF726E1D2EF002F7AF3 /* Debug */,
+				B126BCF826E1D2EF002F7AF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B13C014526E1785400992A6A /* Build configuration list for PBXNativeTarget "Lab-4-1 (infix to postfix)" */ = {
+		B126BCF926E1D2EF002F7AF3 /* Build configuration list for PBXNativeTarget "linked-list-reverse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B13C014626E1785400992A6A /* Debug */,
-				B13C014726E1785400992A6A /* Release */,
+				B126BCFA26E1D2EF002F7AF3 /* Debug */,
+				B126BCFB26E1D2EF002F7AF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B13C013626E1785400992A6A /* Project object */;
+	rootObject = B126BCEA26E1D2EF002F7AF3 /* Project object */;
 }
