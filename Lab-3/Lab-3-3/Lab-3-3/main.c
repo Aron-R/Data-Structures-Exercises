@@ -3,7 +3,8 @@
 //  Lab-3-3
 //
 //  Created by Aaron R on 27/08/21.
-//
+//  Devise a program to create a list of integers dynamically .Write functions (i) Find
+//  he maximum and minimum from the list. (iii) Display the contents of the list.
 
 #include <stdio.h>
 #include <stdlib.h>
