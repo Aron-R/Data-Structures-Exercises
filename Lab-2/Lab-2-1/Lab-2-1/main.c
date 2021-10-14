@@ -90,7 +90,7 @@ void insert_position(struct node ** current, struct node ** head,int * count,int
     // The temporary node is used to traverse and get to the pth position
     temp = *head;
     int i=1;
-    while (i<p)
+    while (i<p-1)
     {
         temp = temp->link;
         i+=1;
@@ -104,6 +104,7 @@ void insert_position(struct node ** current, struct node ** head,int * count,int
     
     *count+=1;
 }
+
 
 int main(int argc, const char * argv[])
 {

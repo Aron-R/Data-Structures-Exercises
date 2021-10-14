@@ -164,6 +164,7 @@ void rmdup(char *array, int length)
         }
     }
 }
+
 int main(int argc, const char * argv[])
 {
     char input[100];
