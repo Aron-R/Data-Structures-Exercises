@@ -1,13 +1,14 @@
 //
 //  main.c
-//  Lab-8-2
+//  pat-2-1
 //
-//  Created by Aaron R on 15/10/21.
-//  You are given some integers and have been asked to sort them in a particular fashion. In this approach, every time you choose an integer from the given list and place it at a position you make sure that all the numbers left to it are either less than or equal to that number and all the elements right of it are greater than that number. Proceed in this way and finally write a code that sorts the given list in ascending order.
+//  Created by Aaron R on 19/11/21.
+//
 
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <stdbool.h>
+int n;
 void input_values(int arr[],int n)
 {
     // #### Function to input values into an array ####
@@ -28,23 +29,44 @@ void display(int arr[],int n)
     
 }
 
+bool initial_condition = true;
+
 int partition (int a[], int lower_bound, int higher_bound)
 {
-    int pivot = a[lower_bound];
+    // #### Function to partition the array ####
+    
+    if(lower_bound>=higher_bound)
+        return 0;
+    
+    // Choose a pivot value
+    int mid = (lower_bound+higher_bound)/2;
+    int pivot = a[mid];
+    
+    if(initial_condition)
+        {
+            printf("%d\n",pivot);
+            initial_condition=false;
+        }
+    
+    // Initialize left and right pointers at extremes
     int start = lower_bound;
     int end = higher_bound;
-
+    
     while (start<end)
     {
-        while((start < end) && (a[start] <= pivot))
+        // Starting at the left pointer and moving to the right, find the first element which is greater than or equal to the pivot value
+        while((start<end) && (a[start]<=pivot))
         {
             start++;
         }
-        while (a[end]>pivot)
+        
+        // Starting at the right pointer and moving to the left, find the first element, which is smaller than pivot value
+        while ((a[end]>pivot))
         {
             end = end - 1;
         }
-
+        
+        // Swap the elements found
         if (start<end)
         {
             int temp = a[start];
@@ -52,17 +74,22 @@ int partition (int a[], int lower_bound, int higher_bound)
             a[end] = temp;
         }
     }
-    int temp = a[lower_bound];
-    a[lower_bound] = a[end];
+    
+    int temp = a[mid];
+    a[end] = a[mid];
     a[end] = temp;
-    return end;
+    return mid;
+    
 }
 
 void quicksort(int a[],int lower_bound,int higher_bound)
 {
+    // ## Quick sort using middle element as pivot
     if (lower_bound<higher_bound)
     {
+        display(a, n);
         int location = partition(a, lower_bound, higher_bound);
+        printf("%d\n",location);
         quicksort(a, lower_bound, location-1);
         quicksort(a, location+1, higher_bound);
     }
@@ -70,7 +97,7 @@ void quicksort(int a[],int lower_bound,int higher_bound)
 
 int main(int argc, const char * argv[])
 {
-    int n;
+    
     printf("Enter n: ");
     scanf("%d", &n);
     int * array;
@@ -84,3 +111,4 @@ int main(int argc, const char * argv[])
     
     return 0;
 }
+
